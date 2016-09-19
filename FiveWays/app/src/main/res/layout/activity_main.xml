@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_margin="4dp"
+    android:background="@color/app_background"
+
+    tools:context="com.example.android.fiveways.MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <View
+            style="@style/BreakStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/beach"/>
+
+        <View
+            style="@style/BreakStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/shakespeare"/>
+
+        <View
+            style="@style/BreakStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/smorg"/>
+
+        <View
+            style="@style/BreakStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/park"/>
+
+        <View
+            style="@style/BreakStyle" />
+
+        <ImageView
+            style="@style/ImageStyle"
+            android:src="@drawable/highline"/>
+
+        <View
+            style="@style/BreakStyle" />
+
+        </LinearLayout>
+
+    <LinearLayout
+           android:layout_width="wrap_content"
+           android:layout_height="match_parent"
+           android:orientation="vertical">
+
+           <View
+        style="@style/ViewStyle" />
+
+
+
+    <TextView
+        android:id="@+id/beach"
+        style="@style/CategoryStyle"
+        android:text="@string/category_beach" />
+
+
+
+    <View
+        style="@style/ViewStyle" />
+
+    <!--android:background="@drawable/rounded_corner"-->
+
+    <TextView
+        android:id="@+id/shakespeare"
+        style="@style/CategoryStyle"
+        android:text="@string/category_shakespeare" />
+
+    <View
+        style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/smorgasburg"
+        style="@style/CategoryStyle"
+        android:text="@string/category_smorgasburg" />
+
+    <View
+        style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/park"
+        style="@style/CategoryStyle"
+        android:text="@string/category_central_park" />
+
+    <View
+        style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/highline"
+        style="@style/CategoryStyle"
+        android:text="@string/category_highline" />
+
+    <View
+        style="@style/ViewStyle" />
+
+
+       </LinearLayout>
+
+
+</LinearLayout>

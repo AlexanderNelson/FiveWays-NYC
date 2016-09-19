@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.fiveways.HighLineActivity">
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_highline" />
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/highline_instructions"
+        style="@style/InfoStyle"
+        android:text="@string/highline_instructions" />
+
+    <TextView
+        android:id="@+id/highline_supplies"
+        style="@style/InfoStyle"
+        android:text="@string/highline_supplies" />
+
+    <TextView
+        android:id="@+id/highline_directions"
+        style="@style/InfoStyle"
+        android:text="@string/highline_directions" />
+
+    <Button
+        style="@style/MapIt"
+        android:id="@+id/button" />
+
+    <EditText
+        android:id="@+id/highline_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_highline"
+        android:inputType="textCapWords"
+        android:paddingTop="36dp" />
+
+
+
+</LinearLayout>
+
+

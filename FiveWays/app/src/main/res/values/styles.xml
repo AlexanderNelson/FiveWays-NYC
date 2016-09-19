@@ -1,0 +1,76 @@
+<resources>
+
+    <!-- application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <!--app name bar-->
+        <item name="colorPrimary">#585858</item>
+        <!--clock bar-->
+        <item name="colorPrimaryDark">#8BC34A</item>
+        <item name="colorAccent">#8BC34A</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!-- Style of category text -->
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">95dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/rounded_corner</item>
+        <item name="android:paddingLeft">36dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20dp</item>
+    </style>
+
+    <style name="ImageStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">95dp</item>
+        <item name="android:gravity">center_vertical</item>
+
+
+    </style>
+
+    <style name="ViewStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#A8B5BA</item>
+    </style>
+
+    <style name="BreakStyle">
+        <item name="android:layout_width">100dp</item>
+        <item name="android:layout_height">2dp</item>
+        <item name="android:background">#a8b5ba</item>
+    </style>
+
+    <style name="ButtonStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:paddingTop">60dp</item>
+        <item name="android:background">@color/app_background</item>
+    </style>
+
+    <style name="InfoStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="MapIt">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:text">-Map It-</item>
+    </style>
+
+
+</resources>

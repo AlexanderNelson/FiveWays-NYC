@@ -1,0 +1,48 @@
+<resources>
+
+    <string name="app_name">Five Ways To Get Out In NYC cheap</string>
+    <string name="title_activity_beach">Beach</string>
+    <string name="title_activity_shakespeare">Shakespeare</string>
+    <string name="title_activity_smorgasburg">Smorgasburg</string>
+    <string name="title_activity_park">Park</string>
+    <string name="title_activity_high_line">High Line</string>
+
+
+    <string name="category_beach">Brighton Beach</string>
+    <string name="category_shakespeare">Shakespeare</string>
+    <string name="category_smorgasburg">Smorgasburg</string>
+    <string name="category_central_park">Central Park</string>
+    <string name="category_highline">High Line</string>
+
+    <string name="hint_beach">Enter place to search near Brighton Beach.</string>
+    <string name="hint_shakespeare">Enter to search near Shakespeare</string>
+    <string name="hint_smorg">Enter place to search near Smorgasburg</string>
+    <string name="hint_park">Enter place to search near Central Park</string>
+    <string name="hint_highline">Enter place to search near the High Line</string>
+
+
+    <string name="park_instructions">"CENTRAL PARK. Okay everyone knows this one but it’s a good one filled with beautiful and sometimes unknown amazement and entertainment. Look out for theboat pond, Shakespeare's Garden, The Central Park Zoo or just bring a blanket and layouton one of the many lawn areas."</string>
+    <string name="smorg_instructions">"SMORGASBURG. Brooklyn’s flea and food market is Saturdays in Williamsburg and Sundays at Prospect Park. Amazing food served from a large selection oftrucks at the edge of the river(Saturday) and in the park(Sundays). Great outdoorsy peoplewatching and food! Bring something to sit on and enjoy the views and sunshine for a day."</string>
+    <string name="shakespeare_instructions">SHAKESPEARE IN THE PARKING LOT. Come early for a seat.Bring a seat. Sit on a blanket. Enjoy live Shakespeare performances, FREE!</string>
+    <string name="beach_instructions">THE BEACH. What!? Beach in the city?? Yep, and you have a few choices with different activities at each one. Brighton is simple close and the onlytravel cost is the train.</string>
+    <string name="highline_instructions">THE HIGH LINE. Through collaborative efforts in architecture and plant design an abandoned elevated train line has been transformed into a paradise to spend a day reading, walking, eating or people watching. Random art exhibits keep you wondering what is next.</string>
+
+    <string name="beach_supplies">SUPPLIES: Water, hat, sunglasses, towel, sunscreen and snacks.</string>
+    <string name="shakespeare_supplies">SUPPLIES: Blanket or chair to sit on. (If you are earlyenough there is some seating available).</string>
+    <string name="smorg_supplies">SUPPLIES: Water, money for food, (blanket for sitting is optional).</string>
+    <string name="park_supplies">SUPPLIES: Beverages, games, blanket and food.</string>
+    <string name="highline_supplies">SUPPLIES: Beverage and walking shoes. Maybe a book if you would like to lounge.</string>
+
+
+    <string name="beach_directions">GETTING THERE: From Manhattan or Brooklyn take the B-train to the Brighton Beach stop. Walk South 1 block.</string>
+    <string name="shakespeare_directions">GETTING THERE: 114 Norfolk Street. F,M-train to Delanceywalk 1 block east then north .5 blocks.</string>
+    <string name="smorg_sat_directions">GETTING THERE(Saturdays): From Manhattan L-train towardsCanarsie-Rockaway PKWY and get off at the Bedford Avenue Station. Walk west 3.5 blocks.</string>
+    <string name="smorg_sun_directions">GETTING THERE(Sundays): Take the Q,B-train toProspect Park Subway Station. Walk directly east into the park toward Breeze Hill. It is alittle less than half way across.</string>
+    <string name="park_directions">GETTING THERE: Take the A,B,C-train to 81st street Manhattanthen cross the street to the east. Or, take the 4,5,6-train to 77th or 86 the and walk eastfor 3 blocks.</string>
+    <string name="highline_directions">GETTING THERE: Take the C-train to 14th Street walk west to Washnigton Street and walk up the staircase on the south sidewalk.</string>
+
+</resources>
+
+
+
+

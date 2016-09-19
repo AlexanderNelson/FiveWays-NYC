@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.fiveways.ParkActivity">
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_central_park"
+        android:text="@string/category_central_park" />
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/InfoStyle"
+        android:text="@string/park_instructions" />
+
+    <TextView
+        android:id="@+id/park_supplies"
+        style="@style/InfoStyle"
+        android:text="@string/park_supplies" />
+
+    <TextView
+        android:id="@+id/park_directions"
+        style="@style/InfoStyle"
+        android:text="@string/park_directions" />
+
+
+    <Button
+        style="@style/MapIt"
+        android:id="@+id/button" />
+
+    <EditText
+        android:id="@+id/park_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_park"
+        android:inputType="textCapWords"
+        android:paddingTop="36dp" />
+
+
+</LinearLayout>

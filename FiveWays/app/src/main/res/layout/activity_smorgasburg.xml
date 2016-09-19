@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/app_background"
+    tools:context="com.example.android.fiveways.SmorgasburgActivity">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="4dp"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    android:focusable="true"
+    android:focusableInTouchMode="true">
+
+
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_smorgasburg"
+        android:text="@string/category_smorgasburg" />
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/smorgasburg_instructions"
+       style="@style/InfoStyle"
+        android:text="@string/smorg_instructions" />
+
+    <TextView
+        android:id="@+id/beach_supplies"
+        style="@style/InfoStyle"
+        android:text="@string/smorg_supplies" />
+
+    <TextView
+        android:id="@+id/smorgsat_directions"
+        style="@style/InfoStyle"
+        android:text="@string/smorg_sat_directions" />
+
+    <TextView
+        android:id="@+id/smorgsun_directions"
+        style="@style/InfoStyle"
+        android:text="@string/smorg_sun_directions" />
+
+
+    <Button
+        style="@style/MapIt"
+        android:id="@+id/button" />
+
+    <EditText
+        android:id="@+id/smorgasburg_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_smorg"
+        android:inputType="textCapWords"
+        android:paddingTop="36dp" />
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+
+

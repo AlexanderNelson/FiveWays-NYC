@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+    tools:context="com.example.android.fiveways.BeachActivity">
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:text="@string/category_beach" />
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/beach_instructions"
+        style="@style/InfoStyle"
+        android:text="@string/beach_instructions" />
+
+    <TextView
+        android:id="@+id/beach_supplies"
+        style="@style/InfoStyle"
+        android:text="@string/beach_supplies" />
+
+    <TextView
+        android:id="@+id/beach_directions"
+        style="@style/InfoStyle"
+        android:text="@string/beach_directions" />
+
+
+    <Button
+        style="@style/MapIt"
+        android:id="@+id/button" />
+
+    <EditText
+        android:id="@+id/beach_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_beach"
+        android:inputType="textCapWords"
+        android:paddingTop="36dp" />
+
+
+
+</LinearLayout>
+
+

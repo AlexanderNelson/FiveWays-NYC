@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background color for app -->
+    <color name="app_background">#253a13</color>
+
+    <!--beach background color -->
+    <color name="category_beach">#8BC34A</color>
+
+    <!--shakespeare background color -->
+    <color name="category_shakespeare">#8BC34A</color>
+
+    <!--smorgasburg background color -->
+    <color name="category_smorgasburg">#8BC34A</color>
+
+    <!--park background color -->
+    <color name="category_central_park">#8BC34A</color>
+
+    <!--highline background color -->
+    <color name="category_highline">#8BC34A</color>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="8dp"
+    android:background="@color/app_background"
+    android:orientation="vertical"
+
+    tools:context="com.example.android.fiveways.ShakespeareActivity">
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        style="@style/CategoryStyle"
+        android:background="@color/category_shakespeare"
+        android:text="@string/category_shakespeare" />
+
+    <View style="@style/ViewStyle" />
+
+    <TextView
+        android:id="@+id/shakespeare_instructions"
+     style="@style/InfoStyle"
+        android:text="@string/shakespeare_instructions" />
+
+    <TextView
+        android:id="@+id/beach_supplies"
+        style="@style/InfoStyle"
+        android:text="@string/shakespeare_supplies" />
+
+    <TextView
+        android:id="@+id/shakespeare_directions"
+        style="@style/InfoStyle"
+        android:text="@string/shakespeare_directions" />
+
+
+    <Button
+        style="@style/MapIt"
+        android:id="@+id/button" />
+
+    <EditText
+        android:id="@+id/shakespeare_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/hint_shakespeare"
+        android:inputType="textCapWords"
+        android:paddingTop="36dp" />
+
+
+
+</LinearLayout>
+
+
