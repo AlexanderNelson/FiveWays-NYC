@@ -1,5 +1,5 @@
 FiveWays NYC
-==========
+============
 
 Welcome to FiveWays NYC.
 This app provides a handful of ways to get outside and enjoy NYC.
@@ -50,7 +50,7 @@ I will implement search and map features for the "Map It" button and the search 
 
 
 Support
----------------------
+-------
 
 Email: AmVetServ@gmail.com
 
